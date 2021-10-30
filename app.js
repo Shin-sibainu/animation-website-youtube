@@ -20,6 +20,6 @@ tl.fromTo(hero, 1, { height: "0%" }, { height: "80%", ease: Power2.easeInOut })
     { y: "0%", ease: Power2.easeInOut },
     "-=1.2"
   )
-  .from(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
+  .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
   .fromTo(menu, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
   .fromTo(headline, 0.5, { opacity: 0, x: 0 }, { opacity: 1, x: 30 }, "-=0.5");
